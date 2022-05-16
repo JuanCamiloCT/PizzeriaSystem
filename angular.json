@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "PizzeriaSystem:build:production",
+            "firebaseProject": "pizzeriasystem",
+            "firebaseHostingSite": "pizzeriasystem"
+          }
         }
       }
     }

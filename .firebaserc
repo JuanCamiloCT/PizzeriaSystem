@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pizzeriasystem": {
+      "hosting": {
+        "PizzeriaSystem": [
+          "pizzeriasystem"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pizzeriasystem"
+  }
+}

@@ -1,0 +1,44 @@
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 w-100">
+  <div class="container-fluid px-5 w-100">
+    <div class="row w-100 justify-content-between">
+      <div class="col-auto">
+        <a class="navbar-brand">
+          <figure class="mb-0">
+            <img src="../assets/images/logo.png" alt="PizzariaSystem" class="img-fluid">
+          </figure>
+        </a>
+      </div>
+      <div class="col-3 d-flex justify-content-end align-items-center">
+        <a class="text-light mx-1" routerLink="/login">Ingresar</a>
+        <a class="text-light mx-1" href="">Salir</a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+<div class="navbar navbar-expand-lg navbar-dark bg-dark py-1 px-4 mb-1 w-100">
+  <div class="navbar">
+    <ul id="menu">
+      <li><span>Sedes</span>
+        <ul>
+          <li><span>Administrar sedes</span></li> 
+          <li><span>Inventario </span>
+              <ul>
+                  <li><span><a href="#">Insumos</a></span></li>
+                  <li><span><a routerLink="/entradas-insumos">Entradas insumos</a></span></li>
+                  <li><span><a routerLink="/salidas-insumos">Salidas insumos</a></span></li>                  
+              </ul>
+          </li>                                    
+      </ul>
+      </li>
+      <li><span>Level 1-B</span></li>
+      <li><span>Level 1-C</span></li>
+      <li><span>Level 1-D</span></li>
+      <li><span>Level 1-E</span></li>
+  </ul>
+  </div>
+</div>
+<div class="pt-4 vh-100 pl-5">
+  <router-outlet></router-outlet>
+</div>}
